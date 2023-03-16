@@ -1,0 +1,20 @@
+{
+  "name": "s3-download-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1334.0",
+    "csv-parser": "^3.0.0",
+    "csv-stringify": "^6.3.0",
+    "dotenv": "^16.0.3",
+    "prompt-sync": "^4.2.0"
+  }
+}
